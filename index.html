@@ -17,6 +17,7 @@
     <title>practice</title>
 
     <link rel="icon" type="image/icon" href="/assets/images/favicon.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
 </head>
 
@@ -26,7 +27,8 @@
     <h4 style="font-family:'Courier New', Courier, monospace;">This blog post is about the importance of nature</h4>
     <a href="#bottom">a link to the bottom</a>
     <a href="https://github.com/Akash1Citrusbug" target="_top">GitHub</a><br>
-    <img src="/assets/images/nature.jpeg" alt="image" width="400px" height="400px" usemap="#workmap">
+    <img id="my-nature-image" src="/assets/images/nature.jpeg" alt="image" width="400px" height="400px"
+        usemap="#workmap">
     <hr>
     <a href="mailto:akash1.citrusbug@gmail.com">mail me</a>
     <hr>
@@ -34,7 +36,9 @@
 
 
 
-    <p style="background-image: url(/assets/images/nature.jpeg);background-repeat: no-repeat;background-size:cover;">orro
+    <p id="para"
+        style="background-image: url(/assets/images/nature.jpeg);background-repeat: no-repeat;background-size:cover;">
+        orro
         commodi error adipisci sit impedit illo et architecto culpa cum odit aperiam ipsam? Quia.
         Incidunt saepe a rem expedita error libero vel labore harum nostrum dignissimos, minus esse, ipsam illum cumque
         hic assumenda quasi earum? Assumenda sit mollitia maxime quod obcaecati. Ducimus, delectus libero.
@@ -115,34 +119,34 @@
     <form action="/action_page.php" enctype="">
         <fieldset>
             <legend align="center">Complete the form</legend>
-        <input type="radio" id="html" name="fav_language" value="HTML">
-        <label for="html">HTML</label><br>
-        <input type="radio" id="css" name="fav_language" value="CSS">
-        <label for="css">CSS</label><br>
-        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-        <label for="javascript">JavaScript</label><br><br>
-        <input type="submit" value="Submit">
-    </fieldset>
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">HTML</label><br>
+            <input type="radio" id="css" name="fav_language" value="CSS">
+            <label for="css">CSS</label><br>
+            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+            <label for="javascript">JavaScript</label><br><br>
+            <input type="submit" value="Submit">
+        </fieldset>
     </form>
 
     <form action="/files/mp4/file_example_MP4_480_1_5MG.mp4" autocomplete="on">
         <fieldset>
             <legend align="center">Welcome to Form</legend>
-        <input type="checkbox" id="learning" value="learning">
-        <label>Learning</label>
-        <input type="checkbox" id="break" value="break">
-        <label>Break</label>
-        <input type="submit" value="submit">
-        <input type="text" placeholder="Enter Your Name" required>
-        <label for="cars">Choose a car:</label>
-        <select id="cars" name="cars">
-            <option value="volvo">Volvo</option>
-            <option value="saab">Saab</option>
-            <option value="fiat">Fiat</option>
-            <option value="audi">Audi</option>
-        </select>
-        <button type="button" onclick="alert('Hello World!')">Click Me!</button>
-    </fieldset>
+            <input type="checkbox" id="learning" value="learning">
+            <label>Learning</label>
+            <input type="checkbox" id="break" value="break">
+            <label>Break</label>
+            <input type="submit" value="submit">
+            <input type="text" placeholder="Enter Your Name" required>
+            <label for="cars">Choose a car:</label>
+            <select id="cars" name="cars">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="fiat">Fiat</option>
+                <option value="audi">Audi</option>
+            </select>
+            <button type="button" onclick="alert('Hello World!')">Click Me!</button>
+        </fieldset>
     </form>
 
     <blockquote cite="http://www.worldwildlife.org/who/index.html">
@@ -154,14 +158,16 @@
 
     <section>
         <h1>WWF</h1>
-        <p>The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the
+        <p style="width: 700px;">The World Wide Fund for Nature (WWF) is an international organization working on issues
+            regarding the
             conservation, research and restoration of the environment, formerly named the World Wildlife Fund. WWF was
             founded in 1961.</p>
     </section>
 
     <section>
         <h1>WWF's Panda symbol</h1>
-        <p>The Panda has become the symbol of WWF. The well-known panda logo of WWF originated from a panda named Chi
+        <p style="max-width: 700px;">The Panda has become the symbol of WWF. The well-known panda logo of WWF originated
+            from a panda named Chi
             Chi that was transferred from the Beijing Zoo to the London Zoo in the same year of the establishment of
             WWF.</p>
     </section>
@@ -177,7 +183,66 @@
         <a href="/css/">CSS</a> |
         <a href="/js/">JavaScript</a> |
         <a href="/python/">Python</a>
-      </nav>
+    </nav>
+
+    <i class="material-icons">cloud</i>
+    <br>
+    <i class="material-icons">favorite</i>
+    <i class="material-icons">attachment</i>
+    <i class="material-icons">computer</i>
+    <i class="material-icons">traffic</i>
+
+
+
+    <div class="parent">
+        <div class="one"></div>
+        <div class="two" style="border: black;"></div>
+        <div class="three"></div>
+    </div>
+
+
+
+<!--CSS Grid Practice-->
+
+<!--
+<div class="grid-container">
+    <div class="card first"></div>
+    <div class="card"></div>
+    <div class="card"></div>
+    <div class="card"></div>
+    <div class="card"></div>
+</div>
+-->
+
+
+<!--CSS Flex Practice-->
+
+<div class="flex-container">
+    <div class="f">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus eveniet minus dolor qui laudantium
+          molestias repudiandae reprehenderit impedit aliquid, fugit eligendi placeat, unde praesentium, vel veritatis
+          voluptate ex corporis magni deleniti. Ipsum id at ad quo neque eos ducimus similique aliquam, modi unde soluta
+          inventore non eius tenetur quibusdam corrupti!</p>
+      </div>
+      <div class="s">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nobis rem ipsa voluptatibus, recusandae illum
+          consequuntur cum, nulla dolores eligendi fuga harum labore animi dolorum asperiores voluptate praesentium
+          beatae, quibusdam sapiente illo ullam cupiditate officiis. Qui consequuntur sit quaerat atque magni possimus,
+          nemo, pariatur incidunt delectus laborum veritatis placeat fugit.</p>
+      </div>
+      <div class="t">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus, voluptatem officia nulla minus, sunt nam
+          aliquam quis explicabo consequatur beatae at? Eligendi corrupti quisquam enim accusantium possimus quis esse
+          praesentium! Obcaecati repudiandae commodi, earum eaque velit voluptatum illum temporibus. Corporis quod
+          dolorem
+          officia, optio eos fuga. Voluptatum repellat maiores laborum rem voluptas esse. Hic consequuntur, quidem nobis
+          suscipit iste autem quae! Itaque ut doloribus eaque quidem quam nostrum eos quibusdam, id vero optio
+          consectetur
+          velit ipsum architecto ad maiores modi aperiam nemo sed est molestiae? Facere velit magnam assumenda ullam
+          veniam officia ea doloribus dolor. Atque, dolore exercitationem. Expedita, eius?</p>
+      </div>
+    </div>
+</div>
 
 
 
